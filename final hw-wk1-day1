@@ -1,0 +1,18 @@
+count = 0
+total = 0
+average = 0
+
+loop do
+  puts "Please enter a number"
+  input = gets.chomp7
+    if
+      input.empty?
+    break
+  else
+    count += 1
+    total = total + input.to_f
+    average = (total/count)
+  end
+end
+puts "The sum of your numbers: #{total}"
+puts "The average of your numbers: #{average}"
